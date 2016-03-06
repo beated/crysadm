@@ -47,5 +47,5 @@ run.sh是运行脚本，down.sh是停止脚本，setup.sh是安装环境脚本�
 ***
 #联系方式<br>
 ***
-EMail:(sanzuwu@gmail.com)
+EMail:(beated@126.com)
 ***
