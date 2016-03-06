@@ -7443,6 +7443,9 @@ body.skin-3 {
     text-align: right;
     display: block;
   }
+  .ibox-tools form {
+  	margin-top: -20px; 
+  }
 }
 @media (max-width: 350px) {
   .timeline-item .date {
