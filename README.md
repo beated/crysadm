@@ -1,6 +1,6 @@
 #这是迅雷云监工源代码
 ***
-##说明：我只是搬运工
+##推荐：使用AWS的EC2云主机，安装Ubuntu系统进行安装
 ***
 ##2016.03.04 14:30 更新
 ***
@@ -34,7 +34,7 @@
 如果出现`bash: sudo: command not found`错误，说明没有安装这个程序，直接输入命令<br>
 `apt-get install -y sudo git`<br>
 用 `cd` 命令进入任意可写权限文件夹，输入命令<br>
-`sudo git clone https://github.com/sanzuwu/crysadm.git`<br>
+`sudo git clone https://github.com/beated/crysadm.git`<br>
 等待下载完成，输入命令<br>
 `cd crysadm  &amp;&amp; sudo chmod +x setup.sh &amp;&amp; ./setup.sh`<br>
 此时等待安装，完成后会自动启动云监工。<br>
