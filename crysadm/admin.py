@@ -147,8 +147,8 @@ def admin_change_user_info(username):
         session['error_message'] = '迅雷账号限制必须为整数.'
         return redirect(url_for(endpoint='admin_user_management', username=username))
 
-    if not 0 < int(max_account_no) < 21:
-        session['error_message'] = '迅雷账号限制必须为 1~20.'
+    if not 0 < int(max_account_no) < 501:
+        session['error_message'] = '迅雷账号限制必须为 1~500.'
         return redirect(url_for(endpoint='admin_user_management', username=username))
 
     user_key = '%s:%s' % ('user', username)
