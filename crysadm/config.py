@@ -18,12 +18,12 @@ class Config(object):
     DATABASE_URI = ''  #数据库链接
     ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}  #允许的后缀名
     SESSION_TYPE = 'memcached'  #缓存类型
-    SECRET_KEY = '7e30485a-dd01-11e4-8abd-10ddb199c373'  #安全密钥
+    SECRET_KEY = '7e303c5a-dd01-11e4-8ayd-10dduftec881'  #安全密钥
     REDIS_CONF = RedisConfig(host='127.0.0.1', port=6379, db=0)  #Redis服务器配置
     PASSWORD_PREFIX = "08b3db21-d120-11e4-9ttd-10ddb199c373"  #密码前缀
     ENCRYPT_PWD_URL = None  #模式
     SERVER_IP = '0.0.0.0'  #服务器IP
-    SERVER_PORT =4000   #端口
+    SERVER_PORT = 4000  #端口
 
 # 正常运行时配置
 class ProductionConfig(Config):
