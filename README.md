@@ -1,6 +1,41 @@
 #这是迅雷云监工源代码
 ***
-##推荐：使用AWS的EC2云主机，安装Ubuntu系统进行安装
+##说明：我只是搬运工
+***
+***   
+
+- 端口：4000
+- 第一次获得密码方法，端口后加/install
+
+***   
+
+## 2016.03.21 更新
+
+***
+
+更新最新代码，说明见crysadm下readme
+
+*** 
+
+##  2016.03.18 更新
+
+***   
+
+感谢@爱转角遇见了谁 的源码，使监工又能用了，而且加了新功能
+
+更新@爱转角遇见了谁 的源码，增加了自动转盘，自动进攻功能
+
+***    
+##2016.03.09 更新
+***
+更新user.py，解决登出其他用户直接到login页面问题
+***
+##2016.03.08 更新
+***
+感谢Dream.Fei的源代码  
+更新开宝箱功能，说明进入crysadm文件夹看     
+
+更改收水晶时间为6小时，迅雷帐号最大为200
 ***
 ##2016.03.04 14:30 更新
 ***
@@ -34,9 +69,9 @@
 如果出现`bash: sudo: command not found`错误，说明没有安装这个程序，直接输入命令<br>
 `apt-get install -y sudo git`<br>
 用 `cd` 命令进入任意可写权限文件夹，输入命令<br>
-`sudo git clone https://github.com/beated/crysadm.git`<br>
+`sudo git clone https://github.com/sanzuwu/crysadm.git`<br>
 等待下载完成，输入命令<br>
-`cd crysadm  &amp;&amp; sudo chmod +x setup.sh &amp;&amp; ./setup.sh`<br>
+`cd crysadm  && sudo chmod +x setup.sh && ./setup.sh`<br>
 此时等待安装，完成后会自动启动云监工。<br>
 ***
 ##PS:<br>
@@ -47,5 +82,5 @@ run.sh是运行脚本，down.sh是停止脚本，setup.sh是安装环境脚本�
 ***
 #联系方式<br>
 ***
-EMail:(beated@126.com)
+EMail:(sanzuwu@gmail.com)
 ***
